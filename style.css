@@ -135,7 +135,7 @@ is being used to size a border should also be in pixels.
      * typically used with insets of -1.4 to provide a glowing effect.
      */
     -fx-focus-color: #FF5555;
-    -fx-faint-focus-color: derive(-fx-focus-color,-5%);
+    -fx-faint-focus-color: #FF555522;
 
     /* The color that is used in styling controls. The default value is based
      * on -fx-base, but is changed by pseudoclasses to change the base color.
@@ -336,7 +336,7 @@ is being used to size a border should also be in pixels.
 
     /* Background color to use for selection of list cells etc. This is when
      * the control doesn't have focus or the row of a previously selected item. */
-    -fx-selection-bar-non-focused: lightgrey;
+    -fx-selection-bar-non-focused: /*lightgrey*/#767883;
 
     /* The color to use as -fx-text-fill when painting text on top of
      * backgrounds filled with -fx-selection-bar.
