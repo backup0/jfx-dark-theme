@@ -1277,7 +1277,7 @@ is being used to size a border should also be in pixels.
 
 .text-input {
     -fx-text-fill: -fx-text-inner-color;
-    -fx-highlight-fill: derive(-fx-control-inner-background,-20%);
+    -fx-highlight-fill: /*derive(-fx-control-inner-background,-20%);*/-fx-selection-bar-non-focused;
     -fx-highlight-text-fill: -fx-text-inner-color;
     -fx-prompt-text-fill: derive(-fx-text-inner-color, -50%);
     -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
